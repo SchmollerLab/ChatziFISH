@@ -1,0 +1,31 @@
+name: spotmax
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - PyQt5==5.15.4
+    - opencv-python-headless==4.5.2.54
+    - fvcore==0.1.5.post20210924
+    - cloudpickle==2.0.0
+    - omegaconf==2.1.1
+    - torchvision==0.10.0
+  - pyqtgraph
+  - pandas
+  - pytables
+  - tqdm
+  - natsort
+  - scikit-image=0.18
+  - pyglet
+  - seaborn
+  - numba
+  - requests
+  - tensorflow<2.6.0
+  - pytorch
+  - munkres
+  - scikit-learn
+  - jupyterlab
+  - boto3
